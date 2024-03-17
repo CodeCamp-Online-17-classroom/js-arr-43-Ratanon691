@@ -1,14 +1,9 @@
-# js-lab-128
-### Lab128 Array: array result14
-ให้สร้าง array result ให้ได้ผลลัพธ์ตามเงื่อนไขที่กำหนด โดยใช้ arr.filter
+# js-lab-129
+### Lab129 Array: returnค่าอยู่ระหว่าง a กับ b
+จงเขียนฟังก์ชัน filterRange(arr, a, b) เพื่อ return array ที่ประกอบด้วย element ของ arr ที่มีค่าอยู่ระหว่าง a กับ b
 
 ```JavaScript
-const array = [
-  { name: 'John', birth: '2001-07-31' },
-  { name: 'Jack', birth: '1990-06-24' },
-  { name: 'Jim', birth: '1984-12-13' },
-  { name: 'Jeff', birth: '1996-02-05' },
-  { name: 'Joe', birth: '2002-06-13' }
-];
-// เกิดเดือน 6
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const filteredArray = filterRange(arr, 3, 7);
+console.log(filteredArray); // [3, 4, 5, 6, 7]
 ```
